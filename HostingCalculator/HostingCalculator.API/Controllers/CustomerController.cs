@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace HostingCalculator.API.Controllers
 {
-    public class Customer : ApiController
+    public class CustomerController : ApiController
     {
         // GET api/<controller>
         public IEnumerable<string> Get()

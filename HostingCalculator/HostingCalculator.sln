@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.API", "HostingCalculator.API\HostingCalculator.API.csproj", "{B4DAE09F-F7B5-4521-825F-9DD919FB42B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Domain", "HostingCalculator.Domain\HostingCalculator.Domain.csproj", "{AE5A2C30-47AD-44A1-B7C6-15432CA32B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Repos", "HostingCalculator.Repos\HostingCalculator.Repos.csproj", "{19F118F8-4870-402E-A7AE-9F8E6326C974}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B4DAE09F-F7B5-4521-825F-9DD919FB42B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4DAE09F-F7B5-4521-825F-9DD919FB42B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4DAE09F-F7B5-4521-825F-9DD919FB42B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5A2C30-47AD-44A1-B7C6-15432CA32B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5A2C30-47AD-44A1-B7C6-15432CA32B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5A2C30-47AD-44A1-B7C6-15432CA32B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5A2C30-47AD-44A1-B7C6-15432CA32B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
