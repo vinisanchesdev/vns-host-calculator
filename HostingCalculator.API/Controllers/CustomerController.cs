@@ -14,7 +14,7 @@ namespace HostingCalculator.API.Controllers
         private CustomerRepository customerRepository = new CustomerRepository();
 
         // GET api/<controller>
-        public IEnumerable<Entity.Customer> Get()
+        public IEnumerable<Entity.Customer> GetAll()
         {
             var customers = customerRepository.GetAllCustomers();
             return customers;
