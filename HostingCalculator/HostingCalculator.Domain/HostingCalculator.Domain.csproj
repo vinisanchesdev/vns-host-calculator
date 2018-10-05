@@ -39,7 +39,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CalculationRules.cs" />
     <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Residence.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
