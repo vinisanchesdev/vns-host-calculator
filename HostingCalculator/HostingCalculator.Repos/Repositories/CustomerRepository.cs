@@ -23,7 +23,7 @@ namespace HostingCalculator.Repos.Repositories
 
         public void AddCustomer()
         {
-            var customer = new Entity.Customer(Guid.NewGuid(), "Vini", "vinicius.guimaraes@rakuten.com.br", "22-06-1993");
+            var customer = new Entity.Customer(Guid.NewGuid(), "Carla", "carla.jemaitis@gmail.com", "06-05-1994");
 
             db.Customers.Add(customer);
             db.SaveChanges();
