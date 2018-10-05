@@ -27,8 +27,9 @@ namespace HostingCalculator.API.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string value)
+        public void Post()
         {
+            customerRepository.AddCustomer();
         }
 
         // PUT api/<controller>/5

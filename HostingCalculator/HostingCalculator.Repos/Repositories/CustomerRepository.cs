@@ -9,6 +9,8 @@ namespace HostingCalculator.Repos.Repositories
 {
     public class CustomerRepository
     {
+        DatabaseContext db = new DatabaseContext();
+
         public List<Entity.Customer> GetAllCustomers()
         {
             List<Entity.Customer> customers = new List<Entity.Customer>();
@@ -18,6 +20,15 @@ namespace HostingCalculator.Repos.Repositories
 
             return customers;
         }
+
+        public void AddCustomer()
+        {
+            var customer = new Entity.Customer(Guid.NewGuid(), "Vini", "vinicius.guimaraes@rakuten.com.br", "22-06-1993");
+
+            db.Customers.Add(customer);
+            db.SaveChanges();
+        }
+
 
                
     }
