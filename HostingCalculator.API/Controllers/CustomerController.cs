@@ -9,7 +9,7 @@ using Entity = HostingCalculator.Domain.Entities;
 
 namespace HostingCalculator.API.Controllers
 {
-    public class CustomerController : ApiController
+    public class CustomerController 
     {
         private CustomerRepository customerRepository = new CustomerRepository();
 
@@ -27,9 +27,20 @@ namespace HostingCalculator.API.Controllers
         }
 
         // POST api/<controller>
-        public void Post()
+        public HttpResponseMessage Post()
         {
-            customerRepository.AddCustomer();
+            try
+            {
+                customerRepository.AddCustomer();
+
+                return new HttpResponseMessage(HttpStatusCode.OK);
+            }
+            catch
+            {
+
+                return new HttpResponseMessage(HttpStatusCode.BadRequest);
+            }
+            
         }
 
         // PUT api/<controller>/5
