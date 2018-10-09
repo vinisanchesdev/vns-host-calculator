@@ -27,6 +27,7 @@ namespace HostingCalculator.API.Controllers
         }
 
         // POST api/<controller>
+        [HttpPost]
         public HttpResponseMessage Post()
         {
             try
