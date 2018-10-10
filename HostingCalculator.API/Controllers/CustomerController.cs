@@ -9,11 +9,13 @@ using Entity = HostingCalculator.Domain.Entities;
 
 namespace HostingCalculator.API.Controllers
 {
-    public class CustomerController 
+    public class CustomerController : ApiController 
     {
         private CustomerRepository customerRepository = new CustomerRepository();
 
         // GET api/<controller>
+        [HttpGet]   
+        [Route("api/customer")]
         public IEnumerable<Entity.Customer> GetAll()
         {
             var customers = customerRepository.GetAllCustomers();
@@ -28,6 +30,7 @@ namespace HostingCalculator.API.Controllers
 
         // POST api/<controller>
         [HttpPost]
+        [Route("api/customer/save")]
         public HttpResponseMessage Post()
         {
             try
