@@ -15,7 +15,7 @@ namespace HostingCalculator.API.Controllers
 
         // GET api/<controller>
         [HttpGet]   
-        [Route("api/customer")]
+        [Route("api/customer/")]
         public IEnumerable<Entity.Customer> GetAll()
         {
             var customers = customerRepository.GetAllCustomers();
@@ -30,7 +30,7 @@ namespace HostingCalculator.API.Controllers
 
         // POST api/<controller>
         [HttpPost]
-        [Route("api/customer/save")]
+        [Route("api/customer/")]
         public HttpResponseMessage Post()
         {
             try
