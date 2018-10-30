@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Repos", "HostingCalculator.Repos\HostingCalculator.Repos.csproj", "{19F118F8-4870-402E-A7AE-9F8E6326C974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Web", "HostingCalculator.Web\HostingCalculator.Web.csproj", "{6373F13D-4BB6-415D-825E-E61C52389A1A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingCalculator.Application", "HostingCalculator.Application\HostingCalculator.Application.csproj", "{972E6D82-5019-4CB8-BC60-442F39918708}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F118F8-4870-402E-A7AE-9F8E6326C974}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6373F13D-4BB6-415D-825E-E61C52389A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6373F13D-4BB6-415D-825E-E61C52389A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6373F13D-4BB6-415D-825E-E61C52389A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6373F13D-4BB6-415D-825E-E61C52389A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{972E6D82-5019-4CB8-BC60-442F39918708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{972E6D82-5019-4CB8-BC60-442F39918708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{972E6D82-5019-4CB8-BC60-442F39918708}.Release|Any CPU.ActiveCfg = Release|Any CPU
