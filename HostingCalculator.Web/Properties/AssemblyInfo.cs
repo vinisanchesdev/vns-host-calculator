@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HostingCalculator.Web1")]
+[assembly: AssemblyTitle("HostingCalculator.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HostingCalculator.Web1")]
+[assembly: AssemblyProduct("HostingCalculator.Web")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f4297ae8-7b3e-4bbd-abab-e8106f1ab11c")]
+[assembly: Guid("85a3f88e-2934-45fa-9fd2-4d9a4731ed8e")]
 
 // Version information for an assembly consists of the following four values:
 //
